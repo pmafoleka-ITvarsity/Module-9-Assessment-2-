@@ -1,0 +1,44 @@
+body {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+#local {
+    width: 100%;
+    background-color: #d42c48;
+    padding: 15px 0;
+    margin: 0;
+
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    font-size: 1.5rem;
+    color: rgba(219, 200, 200, 0.562);
+    text-align: center;
+}
+
+#citites {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td {
+    border: 5px solid #c74c89;
+    padding: 8px;
+}
+
+#cities tr:nth-child(even) {
+    background-color: #f15879; 
+}
+
+#cities tbody tr:nth-child(odd) {
+    background-color: #d15776;
+  }
+  
+
+.col1 {
+    width: 10%;
+}
+
+.col2 {
+    width: 45%;
+}
+
+
